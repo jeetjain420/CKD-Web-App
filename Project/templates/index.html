@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>CKD Prediction</h2>
+
+<form action = "{{url_for('predict')}}" method ="POST">
+
+  Sg<br>
+  <input type="text" name="sg" >
+  <br>
+  
+  Al<br>
+  <input type="text" name="al" >
+  <br>
+  
+  Pc<br>
+  <select>
+  <option value = "0"> 0 </option>
+  <option value = "1"> 1 </option>
+  </select>
+  <br>
+  
+  Sc<br>
+  <input type="text" name="sc" >
+  <br>
+  
+  Hemo<br>
+  <input type="text" name="hemo" >
+  <br>
+  
+  Rc<br>
+  <input type="text" name="rc" >
+  <br>
+  
+  Htn<br>
+  <select>
+  <option value = "0"> 0 </option>
+  <option value = "1"> 1 </option>
+  </select>
+  <br>
+  
+  Dm<br>
+  <select>
+  <option value = "0"> 0 </option>
+  <option value = "1"> 1 </option>
+  </select>
+  <br>
+  <br>
+  <input type="submit" value="predict">
+</form> 
+
+<p>Know your risk of CKD.</p>
+
+</body>
+</html>
