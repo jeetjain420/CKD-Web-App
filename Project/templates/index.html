@@ -1,56 +1,68 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style type="text/css">
+body {background-color: powderblue;}  
+
+
+
+</style>
+
+
 <body>
+<h2 align = "center">Chronic Kidney Disease Prediction</h2>
 
-<h2>CKD Prediction</h2>
+<form action = "{{url_for('predict')}}"  method ="POST" align = "center">
 
-<form action = "{{url_for('predict')}}" method ="POST">
-
-  Sg<br>
+  Sugar<br>
   <input type="text" name="sg" >
   <br>
   
-  Al<br>
+  Albumin<br>
   <input type="text" name="al" >
   <br>
   
-  Pc<br>
-  <select>
+  Packed Cell<br>
+  <select name="pc">
   <option value = "0"> 0 </option>
   <option value = "1"> 1 </option>
   </select>
   <br>
   
-  Sc<br>
+  Serum Creatinine<br>
   <input type="text" name="sc" >
   <br>
   
-  Hemo<br>
+  Haemoglobin<br>
   <input type="text" name="hemo" >
   <br>
   
-  Rc<br>
+  Red Blood Cell<br>
   <input type="text" name="rc" >
   <br>
   
-  Htn<br>
-  <select>
+  Hypertension/Blood Pressure<br>
+  <select name="htn">
   <option value = "0"> 0 </option>
   <option value = "1"> 1 </option>
   </select>
   <br>
   
-  Dm<br>
-  <select>
+  Diabetes Mellitus<br>
+  <select name="dm">
   <option value = "0"> 0 </option>
   <option value = "1"> 1 </option>
   </select>
   <br>
+
   <br>
-  <input type="submit" value="predict">
+  <input type="submit" value="Predict">
+  <br>
 </form> 
 
-<p>Know your risk of CKD.</p>
+<p align = "center">Know the risk of you getting diagnosed with Chronic Kidney Disease in the future</p>
 
 </body>
+</head>
 </html>
+

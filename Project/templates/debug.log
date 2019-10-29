@@ -1,0 +1,24 @@
+[1026/140156.793:ERROR:file_io.cc(89)] ReadExactly: expected 504, observed 0
+[1026/140156.793:ERROR:crash_report_database_win.cc(445)] failed to read records
+[1026/140307.551:ERROR:file_io.cc(89)] ReadExactly: expected 504, observed 0
+[1026/140307.551:ERROR:crash_report_database_win.cc(445)] failed to read records
+[1026/140837.322:ERROR:file_io.cc(89)] ReadExactly: expected 504, observed 0
+[1026/140837.322:ERROR:crash_report_database_win.cc(445)] failed to read records
+[1026/141307.555:ERROR:file_io.cc(89)] ReadExactly: expected 504, observed 0
+[1026/141307.555:ERROR:crash_report_database_win.cc(445)] failed to read records
+[1026/141307.555:ERROR:file_io.cc(89)] ReadExactly: expected 504, observed 0
+[1026/141307.555:ERROR:crash_report_database_win.cc(445)] failed to read records
+[1026/141807.554:ERROR:file_io.cc(89)] ReadExactly: expected 504, observed 0
+[1026/141807.554:ERROR:crash_report_database_win.cc(445)] failed to read records
+[1026/143307.556:ERROR:file_io.cc(89)] ReadExactly: expected 504, observed 0
+[1026/143307.556:ERROR:crash_report_database_win.cc(445)] failed to read records
+[1026/144807.557:ERROR:file_io.cc(89)] ReadExactly: expected 504, observed 0
+[1026/144807.557:ERROR:crash_report_database_win.cc(445)] failed to read records
+[1026/150307.557:ERROR:file_io.cc(89)] ReadExactly: expected 504, observed 0
+[1026/150307.557:ERROR:crash_report_database_win.cc(445)] failed to read records
+[1026/151807.563:ERROR:file_io.cc(89)] ReadExactly: expected 504, observed 0
+[1026/151807.563:ERROR:crash_report_database_win.cc(445)] failed to read records
+[1029/164928.658:ERROR:file_io.cc(89)] ReadExactly: expected 504, observed 0
+[1029/164928.659:ERROR:crash_report_database_win.cc(445)] failed to read records
+[1029/170428.660:ERROR:file_io.cc(89)] ReadExactly: expected 504, observed 0
+[1029/170428.660:ERROR:crash_report_database_win.cc(445)] failed to read records
