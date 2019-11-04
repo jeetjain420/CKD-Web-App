@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body {background-color: orange;}  
+
+
+
+</style>
+
+
+<body>
+<h2 align = "center">Chronic Kidney Disease Prediction</h2>
+
+<form action = "{{url_for('predict')}}"  method ="POST" align = "center">
+
+  Sugar<br>
+  <input type="text" name="sg" >
+  <br>
+  
+  Albumin<br>
+  <input type="text" name="al" >
+  <br>
+  
+  Packed Cell<br>
+  <select name="pc">
+  <option value = "0"> 0 </option>
+  <option value = "1"> 1 </option>
+  </select>
+  <br>
+  
+  Serum Creatinine<br>
+  <input type="text" name="sc" >
+  <br>
+  
+  Haemoglobin<br>
+  <input type="text" name="hemo" >
+  <br>
+  
+  Red Blood Cell<br>
+  <input type="text" name="rc" >
+  <br>
+  
+  Hypertension/Blood Pressure<br>
+  <select name="htn">
+  <option value = "0"> 0 </option>
+  <option value = "1"> 1 </option>
+  </select>
+  <br>
+  
+  Diabetes Mellitus<br>
+  <select name="dm">
+  <option value = "0"> 0 </option>
+  <option value = "1"> 1 </option>
+  </select>
+  <br>
+  <div>
+  
+  <br>
+  <select name= "model_choice"> Select the model
+  <option value = "rf"> Random Forest </option>
+  <option value = "nb"> Naive Bayes </option>
+  <option value = "lr"> Logistic Regression </option>
+  <option value = "knn"> KNN </option>
+  <option value = "svm"> SVM </option>
+  <option value = "dt"> Decision Tree </option>
+  <br>
+  </select>
+  </div>
+  
+  <br>
+  <input type="submit" value="Predict">
+  <br>
+</form> 
+
+<p align = "center">Know the risk of you getting diagnosed with Chronic Kidney Disease in the future</p>
+<p align = "center"> Accuracy of Trained Models</p>
+<p align = "center"> Random Forest = 100% , KNN = 96.86% , Naive Bayes = 100% </p>
+<p align = "center"> SVM = 100% , Logistic Regression = 95.3125% , Decision Tree = 98.4325%  </p>
+
+</body>
+</head>
+</html>
+
